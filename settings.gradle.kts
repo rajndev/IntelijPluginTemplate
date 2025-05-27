@@ -3,4 +3,4 @@ plugins {
 }
 
 //ToDo: Add project name
-rootProject.name = ""
+rootProject.name = "AndroidPlugin-Custom-Project-Templates"

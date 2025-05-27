@@ -1,4 +1,4 @@
-package com.shivnasoft.CHANGETHIS.toolWindow
+package com.shivnasoft.customprojecttemplates.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.shivnasoft.CHANGETHIS.MyBundle
-import com.shivnasoft.CHANGETHIS.services.MyProjectService
+import com.shivnasoft.customprojecttemplates.MyBundle
+import com.shivnasoft.customprojecttemplates.services.MyProjectService
 import javax.swing.JButton
 
 

@@ -1,4 +1,4 @@
-package com.shivnasoft.CHANGETHIS
+package com.shivnasoft.customprojecttemplates
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

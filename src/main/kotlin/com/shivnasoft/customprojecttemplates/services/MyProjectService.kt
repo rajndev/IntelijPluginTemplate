@@ -1,9 +1,9 @@
-package com.shivnasoft.CHANGETHIS.services
+package com.shivnasoft.customprojecttemplates.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.shivnasoft.CHANGETHIS.MyBundle
+import com.shivnasoft.customprojecttemplates.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

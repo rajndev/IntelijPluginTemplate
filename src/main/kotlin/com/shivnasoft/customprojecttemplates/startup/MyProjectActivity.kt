@@ -1,4 +1,4 @@
-package com.shivnasoft.CHANGETHIS.startup
+package com.shivnasoft.customprojecttemplates.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
