@@ -1,15 +1,17 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.rajndev.intelijplugintemplate</id>
-    <name>IntelijPluginTemplate</name>
+    <!--ToDo update this with the current plugin project name AND also change the project name -->
+    <id>com.shivnasoft.CHANGETHIS</id>
+    <name>CHANGETHIS</name>
     <vendor>rajndev</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.android</depends>
+    <depends>com.intellij.modules.androidstudio</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.rajndev.intelijplugintemplate.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.rajndev.intelijplugintemplate.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.shivnasoft.CHANGETHIS.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.shivnasoft.CHANGETHIS.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>

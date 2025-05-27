@@ -1,4 +1,4 @@
-package com.github.rajndev.intelijplugintemplate
+package com.shivnasoft.CHANGETHIS
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

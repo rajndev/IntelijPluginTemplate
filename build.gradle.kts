@@ -1,6 +1,7 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     id("java") // Java support
@@ -131,6 +132,16 @@ tasks {
 
     publishPlugin {
         dependsOn(patchChangelog)
+    }
+
+    //ToDo: Change these versions if needed
+    withType<JavaCompile> {
+        sourceCompatibility = "17"
+        targetCompatibility = "17"
+    }
+    withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+        //ToDo: Change the target version if needed
+        compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
     }
 }
 

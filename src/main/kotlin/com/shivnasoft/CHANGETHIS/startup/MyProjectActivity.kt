@@ -1,4 +1,4 @@
-package com.github.rajndev.intelijplugintemplate.startup
+package com.shivnasoft.CHANGETHIS.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
